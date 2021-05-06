@@ -21,7 +21,7 @@ Feature: Swaglabs products page functionality
         Then On the CHECKOUT page user can enter "<first name>" and "<last name>" and "<zipcode>" of the allowed User
 
 
-    Example: Allowed users
+    Examples: Allowed users
             | first name | last name | zipcode |
             | John       | Smith     | 20176   |
             | Allen      | Duke      | 30982   |
