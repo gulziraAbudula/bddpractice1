@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2921978400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Standard user can login to Swaglabs and see the product home page",
+        "description": "",
+        "id": "swaglabs-user-authentication;standard-user-can-login-to-swaglabs-and-see-the-product-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 597412200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Standard user goes to the swaglabs landing page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Standard user enters standard user credentails",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Standard user clicks LOGIN button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Standard user can see product home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@editing"
+          }
+        ]
+      }
+    ],
+    "name": "Swaglabs user authentication",
+    "description": "",
+    "id": "swaglabs-user-authentication",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
