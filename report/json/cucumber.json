@@ -1,12 +1,18 @@
 [
   {
-    "line": 2,
+    "comments": [
+      {
+        "line": 1,
+        "value": "## This is a practice feature file"
+      }
+    ],
+    "line": 3,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 1591215700,
+              "duration": 1603205800,
               "status": "passed"
             },
             "match": {
@@ -14,14 +20,14 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Standard user can login to Swaglabs and see the product home page",
+        "line": 6,
+        "name": "User can see correct product name and price for Back-pack and Bolt T-shirt",
         "description": "",
-        "id": "swaglabs-user-authentication;standard-user-can-login-to-swaglabs-and-see-the-product-home-page",
+        "id": "swaglabs-products-page-functionality;user-can-see-correct-product-name-and-price-for-back-pack-and-bolt-t-shirt",
         "after": [
           {
             "result": {
-              "duration": 617217900,
+              "duration": 621211300,
               "status": "passed"
             },
             "match": {
@@ -34,10 +40,10 @@
         "steps": [
           {
             "result": {
-              "duration": 490179100,
+              "duration": 578388400,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Standard user goes to the swaglabs landing page",
             "match": {
               "location": "AuthenticationSteps.standard_user_goes_to_the_swaglabs_landing_page()"
@@ -46,10 +52,10 @@
           },
           {
             "result": {
-              "duration": 4126329500,
+              "duration": 4122194400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Standard user enters standard user credentails",
             "match": {
               "location": "AuthenticationSteps.standard_user_enters_standard_user_credentials()"
@@ -58,10 +64,10 @@
           },
           {
             "result": {
-              "duration": 4086091600,
+              "duration": 4091710000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Standard user clicks LOGIN button",
             "match": {
               "location": "AuthenticationSteps.standard_user_clicks_LOGIN_button()"
@@ -70,29 +76,45 @@
           },
           {
             "result": {
-              "duration": 30299700,
+              "duration": 72996700,
               "status": "passed"
             },
-            "line": 9,
-            "name": "Standard user can see product home page",
+            "line": 10,
+            "name": "user should be able to see following product information",
             "match": {
-              "location": "AuthenticationSteps.standard_user_can_see_product_home_page()"
+              "location": "AuthenticationSteps.user_should_be_able_to_see_following_product_information(DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Backpack",
+                  "$29.99"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt",
+                  "$15.99"
+                ],
+                "line": 12
+              }
+            ],
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 4,
+            "line": 5,
             "name": "@editing"
           }
         ]
       }
     ],
-    "name": "Swaglabs user authentication",
+    "name": "Swaglabs products page functionality",
     "description": "",
-    "id": "swaglabs-user-authentication",
+    "id": "swaglabs-products-page-functionality",
     "keyword": "Feature",
-    "uri": "login.feature"
+    "uri": "products.feature"
   }
 ]
