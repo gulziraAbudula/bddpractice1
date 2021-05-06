@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2921978400,
+              "duration": 1591215700,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 597412200,
+              "duration": 617217900,
               "status": "passed"
             },
             "match": {
@@ -34,38 +34,50 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 490179100,
+              "status": "passed"
             },
             "line": 6,
             "name": "Standard user goes to the swaglabs landing page",
-            "match": {},
+            "match": {
+              "location": "AuthenticationSteps.standard_user_goes_to_the_swaglabs_landing_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4126329500,
+              "status": "passed"
             },
             "line": 7,
             "name": "Standard user enters standard user credentails",
-            "match": {},
+            "match": {
+              "location": "AuthenticationSteps.standard_user_enters_standard_user_credentials()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4086091600,
+              "status": "passed"
             },
             "line": 8,
             "name": "Standard user clicks LOGIN button",
-            "match": {},
+            "match": {
+              "location": "AuthenticationSteps.standard_user_clicks_LOGIN_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 30299700,
+              "status": "passed"
             },
             "line": 9,
             "name": "Standard user can see product home page",
-            "match": {},
+            "match": {
+              "location": "AuthenticationSteps.standard_user_can_see_product_home_page()"
+            },
             "keyword": "Then "
           }
         ],
